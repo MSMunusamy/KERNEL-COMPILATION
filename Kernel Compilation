@@ -1,0 +1,21 @@
+# Kernel-compilation
+Download kernal from www.kernal.org
+After download extract the following way kernal.tar.xz   ( tar -xvf (file name) )
+
+STEP  1: change directory to extracted directory
+STEP  2: make clean
+STEP  3: make mrproper
+STEP  4: make menuconfig   (if already installed bellow given tools)
+STEP  5: sudo apt-get install libelf-dev
+STEP  6: sudo apt-get install ncurses-dev
+STEP  7: sudo apt-get install libssl-dev
+STEP  8: sudo apt-get install byzanz
+STEP  9: sudo apt-get install bison
+STEP 10: sudo apt-get install flex
+STEP 11: make menuconfig
+STEP 12: make -j(core)                      //LIKE 2 OR 4 OR 6 OR 8
+STEP 13: sudo make modules
+STEP 14: sudo make install
+STEP 15: sudo modules_install
+STEP 16: update-grub
+STEP 17: reboot 
