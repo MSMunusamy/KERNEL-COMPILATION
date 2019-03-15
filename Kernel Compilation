@@ -1,3 +1,10 @@
+/**************************************/
+/*Author     : Munusamy M             */
+/*Date       : 14-03-2019             */
+/*Filename   : kernel compilation     */
+/*Description: Compilation steps      */
+/**************************************/
+
 # Kernel-compilation
 Download kernal from www.kernal.org
 After download extract the following way kernal.tar.xz   ( tar -xvf (file name) )
